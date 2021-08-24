@@ -11,5 +11,5 @@ export function Header() {
         </a>
       </Link>
     </header>
-  )
+  );
 }
