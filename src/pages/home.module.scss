@@ -8,36 +8,8 @@
     a + a {
         margin-top: 3rem;
     }
-    strong {
-        font-size: 1.75rem ;
-    }
 
-    p {
-        font-size: 1.125rem;
-        color: var(--gray-200);
-    }
-
-    ul {
-        display: flex;
-        margin: 1rem 0;
-        padding-left: -2rem; 
-        list-style: none;
-    
-        & li {
-            color: var(--gray-200);
-
-            & + li {
-                margin-left: 2rem;  
-            }
-            
-            & svg {
-                margin-right: 0.5rem;
-            }
-
-        }
-    }
-
-    .buttonLoadingPosts {
+    button {
         border: none;
         background: transparent;
         font-weight: 600;
@@ -48,6 +20,37 @@
         text-decoration: underline;
         }
     }
+}
+.post {
 
+    strong {
+        font-size: 1.75rem ;
+        font-weight: bold;
+        color: var(--heading)
+    }
+
+    p {
+        margin-top: 0.5rem;
+        font-size: 1.125rem;
+    }
+
+    ul {
+        display: flex;
+        margin-top: 1.5rem;
+        list-style: none;
     
+        & li {
+            font-size: 0.875rem;
+            color: var(--gray-200);
+
+            & + li {
+                margin-left: 1.625rem;  
+            }
+            
+            & svg {
+                margin-right: 0.5rem;
+            }
+
+        }
+    }
 }
